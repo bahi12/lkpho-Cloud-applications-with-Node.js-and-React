@@ -16,7 +16,7 @@ const requestListener = function (req, res) {
   } else {
       message = 'Good night!'
   }
-  res.end(`Hello,  ${message}: ${today.getDate()}`);
+  res.end(`Hello,  ${message}`);
 }
 
 const port = 8082;
